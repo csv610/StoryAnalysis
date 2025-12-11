@@ -1,17 +1,17 @@
-# Story Analysis with AI
+# Story Analysis
 
-A comprehensive framework for analyzing literary works using AI-powered tools. This project provides utilities to generate summaries, extract morals, provide critiques, and perform deep structural analysis of any story collection.
+A tool for analyzing stories using language models. This project provides utilities to generate summaries, extract morals, provide critiques, and analyze story structure using any LLM via LiteLLM.
 
 ## Features
 
 - **Story Collection Management**: Organize and analyze multiple stories
-- **AI-Powered Analysis**: Use any LLM via LiteLLM to analyze stories
-  - **Summaries**: Generate concise summaries
-  - **Moral Extraction**: Identify thematic lessons and meanings
-  - **Critique**: Receive balanced literary criticism with strengths/weaknesses
-  - **Deep Analysis**: Explore themes, symbolism, narrative structure, and social context
-- **Word Count Utility**: Quickly analyze story lengths across the collection
-- **Flexible LLM Support**: Works with GPT-4, Claude, Gemini, and other LiteLLM-compatible models
+- **LLM-Based Analysis**: Use any LLM to analyze stories
+  - **Summaries**: Generate summaries
+  - **Moral Extraction**: Identify themes and lessons
+  - **Critique**: Generate literary criticism with strengths and weaknesses
+  - **Analysis**: Extract themes, symbolism, narrative structure, and social context
+- **Word Count Utility**: Count words across story files
+- **LLM Support**: Compatible with GPT-4, Claude, Gemini, and other LiteLLM-supported models
 
 ## Project Structure
 
@@ -38,8 +38,8 @@ TagoreStories/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/story-analysis.git
-cd story-analysis
+git clone https://github.com/csv610/StoryAnalysis.git
+cd StoryAnalysis
 ```
 
 2. Create a virtual environment (recommended):
@@ -118,13 +118,12 @@ See `requirements.txt` for exact versions.
 3. Parse and format the response as JSON
 4. Output results to stdout
 
-### Why This Approach?
+### Analysis Features
 
-Modern LLMs excel at literary analysis, offering:
+This approach provides:
 - Multiple analytical frameworks (structural, thematic, symbolic)
-- Accessible explanations for learners
-- Customizable analysis via different models and prompts
-- Batch processing capabilities
+- Analysis results from different models and prompts
+- Ability to process multiple stories
 
 ## Configuration
 
@@ -153,9 +152,9 @@ echo $OPENAI_API_KEY  # Should output your key
 
 ## Contributing
 
-Contributions are welcome! Feel free to:
+To contribute:
 - Add new analysis types
-- Improve prompts for better outputs
+- Improve prompts
 - Add support for more file formats
 - Fix bugs or improve documentation
 
@@ -168,7 +167,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [LiteLLM Documentation](https://docs.litellm.ai/)
 - [OpenAI API Documentation](https://platform.openai.com/docs/)
 - [Anthropic Claude Documentation](https://docs.anthropic.com/)
-
----
-
-Enjoy exploring literature through the lens of AI-powered analysis!
