@@ -21,11 +21,11 @@ StoryAnalysis/
 ├── LICENSE                      # MIT License
 ├── requirements.txt             # Python dependencies
 ├── story_analysis.py            # Main story analysis script
+├── WordCount.py                 # Word counting utility
 └── stories/
     ├── [PDF versions]
     └── txt/
-        ├── [Story text files]
-        └── WordCount.py         # Word counting utility
+        └── [Story text files]
 ```
 
 ## Installation
