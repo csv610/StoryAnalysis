@@ -16,7 +16,7 @@ A tool for analyzing stories using language models. This project provides utilit
 ## Project Structure
 
 ```
-TagoreStories/
+StoryAnalysis/
 ├── README.md                    # This file
 ├── LICENSE                      # MIT License
 ├── requirements.txt             # Python dependencies
